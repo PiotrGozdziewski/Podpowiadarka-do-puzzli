@@ -12,3 +12,17 @@ c:\users\piotr\documents\visual studio 2015\Projects\Podpowiadarka_do_puzzli\Pod
 c:\users\piotr\documents\visual studio 2015\Projects\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.csproj.GenerateResource.Cache
 c:\users\piotr\documents\visual studio 2015\Projects\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.exe
 c:\users\piotr\documents\visual studio 2015\Projects\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.pdb
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Podpowiadarka_do_puzzli.exe.config
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.exe
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.pdb
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Podpowiadarka_do_puzzli.exe
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Podpowiadarka_do_puzzli.pdb
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.csprojResolveAssemblyReference.cache
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\MainWindow.g.cs
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\App.g.cs
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli_MarkupCompile.cache
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli_MarkupCompile.lref
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\MainWindow.baml
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.g.resources
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.Properties.Resources.resources
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.csproj.GenerateResource.Cache
