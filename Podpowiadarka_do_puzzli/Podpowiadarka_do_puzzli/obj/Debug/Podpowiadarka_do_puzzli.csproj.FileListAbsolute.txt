@@ -1,0 +1,148 @@
+c:\users\piotr\documents\visual studio 2015\Projects\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Podpowiadarka_do_puzzli.exe.config
+c:\users\piotr\documents\visual studio 2015\Projects\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Podpowiadarka_do_puzzli.exe
+c:\users\piotr\documents\visual studio 2015\Projects\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Podpowiadarka_do_puzzli.pdb
+c:\users\piotr\documents\visual studio 2015\Projects\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.csprojResolveAssemblyReference.cache
+c:\users\piotr\documents\visual studio 2015\Projects\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\MainWindow.g.cs
+c:\users\piotr\documents\visual studio 2015\Projects\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\App.g.cs
+c:\users\piotr\documents\visual studio 2015\Projects\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli_MarkupCompile.cache
+c:\users\piotr\documents\visual studio 2015\Projects\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli_MarkupCompile.lref
+c:\users\piotr\documents\visual studio 2015\Projects\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\MainWindow.baml
+c:\users\piotr\documents\visual studio 2015\Projects\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.g.resources
+c:\users\piotr\documents\visual studio 2015\Projects\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.Properties.Resources.resources
+c:\users\piotr\documents\visual studio 2015\Projects\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.csproj.GenerateResource.Cache
+c:\users\piotr\documents\visual studio 2015\Projects\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.exe
+c:\users\piotr\documents\visual studio 2015\Projects\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.pdb
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Podpowiadarka_do_puzzli.exe.config
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.exe
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.pdb
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Podpowiadarka_do_puzzli.exe
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Podpowiadarka_do_puzzli.pdb
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.csprojResolveAssemblyReference.cache
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\MainWindow.g.cs
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\App.g.cs
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli_MarkupCompile.cache
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli_MarkupCompile.lref
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\MainWindow.baml
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.g.resources
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.Properties.Resources.resources
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.csproj.GenerateResource.Cache
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Emgu.CV.UI.dll
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Emgu.CV.UI.GL.dll
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Emgu.CV.World.dll
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\OpenTK.dll
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\OpenTK.GLControl.dll
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\ZedGraph.dll
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Emgu.CV.UI.xml
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Emgu.CV.UI.GL.xml
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Emgu.CV.World.xml
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\OpenTK.xml
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\OpenTK.GLControl.xml
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\ZedGraph.xml
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Piotr\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Podpowiadarka_do_puzzli.exe.config
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Podpowiadarka_do_puzzli.exe
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Podpowiadarka_do_puzzli.pdb
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Emgu.CV.UI.dll
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Emgu.CV.UI.GL.dll
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Emgu.CV.World.dll
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\OpenTK.dll
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\OpenTK.GLControl.dll
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\ZedGraph.dll
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Emgu.CV.UI.xml
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Emgu.CV.UI.GL.xml
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Emgu.CV.World.xml
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\OpenTK.xml
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\OpenTK.GLControl.xml
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\ZedGraph.xml
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.csprojResolveAssemblyReference.cache
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\MainWindow.g.cs
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\App.g.cs
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli_MarkupCompile.cache
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli_MarkupCompile.lref
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\MainWindow.baml
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.g.resources
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.Properties.Resources.resources
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.csproj.GenerateResource.Cache
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.csproj.CoreCompileInputs.cache
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.exe
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.pdb
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\TestPage.g.cs
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\UserManualPage.g.cs
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\TestPage.baml
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\UserManualPage.baml
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\LoadingPhotosPage.g.cs
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\LoadingPhotosPage.baml
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\AdjustPhotosPage.g.cs
+C:\Users\lukis\Documents\GitHub\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\AdjustPhotosPage.baml
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Podpowiadarka_do_puzzli.exe.config
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.exe
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.pdb
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Podpowiadarka_do_puzzli.exe
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Podpowiadarka_do_puzzli.pdb
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Emgu.CV.UI.dll
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Emgu.CV.UI.GL.dll
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Emgu.CV.World.dll
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\OpenTK.dll
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\OpenTK.GLControl.dll
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\ZedGraph.dll
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Emgu.CV.UI.xml
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Emgu.CV.UI.GL.xml
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\Emgu.CV.World.xml
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\OpenTK.xml
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\OpenTK.GLControl.xml
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\ZedGraph.xml
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\de\ZedGraph.resources.dll
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\es\ZedGraph.resources.dll
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\fr\ZedGraph.resources.dll
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\hu\ZedGraph.resources.dll
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\it\ZedGraph.resources.dll
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\ja\ZedGraph.resources.dll
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\pt\ZedGraph.resources.dll
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\ru\ZedGraph.resources.dll
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\sk\ZedGraph.resources.dll
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\sv\ZedGraph.resources.dll
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\tr\ZedGraph.resources.dll
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\zh-cn\ZedGraph.resources.dll
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\bin\Debug\zh-tw\ZedGraph.resources.dll
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.csprojResolveAssemblyReference.cache
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\AdjustPhotosPage.g.cs
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\LoadingPhotosPage.g.cs
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\MainWindow.g.cs
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\TestPage.g.cs
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\UserManualPage.g.cs
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\App.g.cs
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli_MarkupCompile.cache
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli_MarkupCompile.lref
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\AdjustPhotosPage.baml
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\LoadingPhotosPage.baml
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\MainWindow.baml
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\TestPage.baml
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\UserManualPage.baml
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.g.resources
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.Properties.Resources.resources
+D:\Politechnika Poznańska 2015\Semestr 6\PT\Podpowiadarka_do_puzzli\Podpowiadarka-do-puzzli\Podpowiadarka_do_puzzli\Podpowiadarka_do_puzzli\obj\Debug\Podpowiadarka_do_puzzli.csproj.GenerateResource.Cache
