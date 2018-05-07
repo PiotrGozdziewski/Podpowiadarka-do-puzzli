@@ -38,56 +38,68 @@ namespace Podpowiadarka_do_puzzli
 
         public AdjustPhotosPage()
         {
-            InitializeComponent();
-            zdj.Source = BitmapSourceConvert.ToBitmapSource(imgInPuzzle);
-            t1.Value = 100;
-            t2.Value = 30;
+            try
+            {
+                InitializeComponent();
+                zdj.Source = ToBitmapSource(imgInPuzzle);
+                t1.Value = 100;
+                t2.Value = 30;
+            }
+            catch(System.NullReferenceException){ }
         }
 
 
         private void prev_Click(object sender, RoutedEventArgs e)
         {
             this.NavigationService.Navigate(new LoadingPhotosPage());
-           
+
         }
 
 
         public void wykrywanie_konturow(int t1, int t2)
         {
-            Image<Gray, byte> img = imgInPuzzle.Convert<Gray, byte>();
-            Image<Gray, byte> img1 = img;
-
-            Mat graymat = new Mat();
-            Mat mask = new Mat();
-
-            graymat = img1.Mat;
-
-
-            CvInvoke.AdaptiveThreshold(graymat, mask, 255, AdaptiveThresholdType.MeanC, ThresholdType.BinaryInv, t1 * 10 - 1, t2);
-
-            //pictureBox1.Image = mask.Bitmap;
-
-
-            contours = new Emgu.CV.Util.VectorOfVectorOfPoint();
-            con = new Emgu.CV.Util.VectorOfVectorOfPoint();
-
-            Mat hier = new Mat(mask.Rows, mask.Cols, DepthType.Cv8U, 0);
-
-            CvInvoke.FindContours(mask, contours, hier, Emgu.CV.CvEnum.RetrType.External, Emgu.CV.CvEnum.ChainApproxMethod.ChainApproxSimple);
-
-
-            for (int i = 0; i < contours.Size; i++)
+            try
             {
-                double a = CvInvoke.ContourArea(contours[i], false);
-                if (a > 600 && a < ((mask.Cols * mask.Rows) / 2))
-                    con.Push(contours[i]);
+                Image<Gray, byte> img = imgInPuzzle.Convert<Gray, byte>();
+                Image<Gray, byte> img1 = img;
+
+                Mat graymat = new Mat();
+                Mat mask = new Mat();
+
+                graymat = img1.Mat;
+
+
+                CvInvoke.AdaptiveThreshold(graymat, mask, 255, AdaptiveThresholdType.MeanC, ThresholdType.BinaryInv, t1 * 10 - 1, t2);
+
+                //pictureBox1.Image = mask.Bitmap;
+
+
+                contours = new Emgu.CV.Util.VectorOfVectorOfPoint();
+                con = new Emgu.CV.Util.VectorOfVectorOfPoint();
+
+                Mat hier = new Mat(mask.Rows, mask.Cols, DepthType.Cv8U, 0);
+
+                CvInvoke.FindContours(mask, contours, hier, Emgu.CV.CvEnum.RetrType.External, Emgu.CV.CvEnum.ChainApproxMethod.ChainApproxSimple);
+
+
+                for (int i = 0; i < contours.Size; i++)
+                {
+                    double a = CvInvoke.ContourArea(contours[i], false);
+                    if (a > 600 && a < ((mask.Cols * mask.Rows) / 2))
+                        con.Push(contours[i]);
+                }
+
+                CvInvoke.DrawContours(mask, con, -1, new MCvScalar(255, 255, 255), 1);
+
+                ilosc_konturow.Text = "Liczba konturów: " + con.Size.ToString();
+
+                zdj.Source = ToBitmapSource(mask);
             }
-
-            CvInvoke.DrawContours(mask, con, -1, new MCvScalar(255, 255, 255), 1);
-
-            ilosc_konturow.Text= "Liczba konturów: " + con.Size.ToString();
+            catch(System.NullReferenceException)
+            {
+                MessageBox.Show("Wczytaj zdjęcia", "Podpowiadarka do puzzli - Błąd", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
            
-            zdj.Source = BitmapSourceConvert.ToBitmapSource(mask);
         }
 
         private void t1_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
@@ -140,19 +152,18 @@ namespace Podpowiadarka_do_puzzli
         {
             wyodrebnienie_puzzli(con, points, imgInPuzzle.ToBitmap());
         }
-    }
 
+        private void next_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new DetectPuzzlePage());
+        }
 
-
-
-
-    public static class BitmapSourceConvert
-    {
         [DllImport("gdi32")]
         private static extern int DeleteObject(IntPtr o);
 
         public static BitmapSource ToBitmapSource(IImage image)
         {
+
             using (System.Drawing.Bitmap source = image.Bitmap)
             {
                 IntPtr ptr = source.GetHbitmap();

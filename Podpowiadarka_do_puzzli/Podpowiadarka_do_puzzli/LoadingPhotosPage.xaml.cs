@@ -42,10 +42,10 @@ namespace Podpowiadarka_do_puzzli
             {
                 image.Source = new BitmapImage(new Uri(op.FileName));
                 var path = op.FileName;
-                imgInput= new Image<Rgb, byte>(path);
+                imgInput = new Image<Rgb, byte>(path);
             }
         }
-      
+
 
         public void add_Puzzle(object sender, RoutedEventArgs e)
         {

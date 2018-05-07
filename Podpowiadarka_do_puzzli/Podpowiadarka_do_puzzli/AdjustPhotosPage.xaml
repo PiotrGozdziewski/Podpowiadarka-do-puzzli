@@ -40,7 +40,7 @@
         </Grid>
 
         <Grid Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="1">
-            <Button Content="Dalej" Height="30" Width="100" HorizontalAlignment="Right" Margin="0,0,20,0" Click="Button_Click"/>
+            <Button Content="Dalej" Height="30" Width="100" HorizontalAlignment="Right" Margin="0,0,20,0" Click="next_Click"/>
         </Grid>
         <Image x:Name="zdj" HorizontalAlignment="Left" Height="380" Margin="10,0,0,0" Grid.Row="2" VerticalAlignment="Top" Width="780" Grid.ColumnSpan="2"/>
         <Slider x:Name="t1" HorizontalAlignment="Left" Margin="10,18,0,0" Grid.Row="1" VerticalAlignment="Top" ValueChanged="t1_ValueChanged" LargeChange="10" Maximum="500" Minimum="10" SmallChange="10" TickFrequency="20" Value="10" Width="353" Height="18"/>

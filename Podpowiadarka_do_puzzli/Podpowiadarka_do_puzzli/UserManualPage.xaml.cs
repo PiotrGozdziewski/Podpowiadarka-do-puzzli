@@ -18,7 +18,7 @@ namespace Podpowiadarka_do_puzzli
     /// <summary>
     /// Logika interakcji dla klasy UserManualPage.xaml
     /// </summary>
-    public partial class UserManualPage : Page  
+    public partial class UserManualPage : Page
     {
         public UserManualPage()
         {

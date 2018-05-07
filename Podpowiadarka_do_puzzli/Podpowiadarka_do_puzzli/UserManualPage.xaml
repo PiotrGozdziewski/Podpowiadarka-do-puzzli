@@ -1,4 +1,4 @@
-<Page x:Class="Podpowiadarka_do_puzzli.UserManualPage"
+﻿<Page x:Class="Podpowiadarka_do_puzzli.UserManualPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -20,7 +20,7 @@
             <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
-        
+
         <Grid Grid.Row="0" Grid.ColumnSpan="3">
             <TextBlock Margin="20,10,10,0" FontSize="25">Przed uruchomieniem programu:</TextBlock>
         </Grid>

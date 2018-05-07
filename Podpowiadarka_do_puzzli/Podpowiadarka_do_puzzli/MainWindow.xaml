@@ -9,5 +9,5 @@
         Icon="logo.ico">
 
     <Frame x:Name="frame" Content="Frame" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" NavigationUIVisibility="Hidden"/>
-    
+
 </Window>

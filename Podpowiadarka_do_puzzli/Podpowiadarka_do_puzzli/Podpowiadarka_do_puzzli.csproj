@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9CE1ED4D-0AD5-4526-8AA7-CA24CE09CAEC}</ProjectGuid>
+    <ProjectGuid>{722292E1-72BF-46E5-811F-788FA66F4F79}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Podpowiadarka_do_puzzli</RootNamespace>
@@ -17,21 +17,6 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <PublishUrl>publish\</PublishUrl>
-    <Install>true</Install>
-    <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
-    <UpdateMode>Foreground</UpdateMode>
-    <UpdateInterval>7</UpdateInterval>
-    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
-    <UpdatePeriodically>false</UpdatePeriodically>
-    <UpdateRequired>false</UpdateRequired>
-    <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
-    <UseApplicationTrust>false</UseApplicationTrust>
-    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -51,9 +36,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup>
-    <ApplicationIcon>logo.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Emgu.CV.UI, Version=3.1.0.2282, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
@@ -105,16 +87,20 @@
     <Compile Include="AdjustPhotosPage.xaml.cs">
       <DependentUpon>AdjustPhotosPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DetectPuzzlePage.xaml.cs">
+      <DependentUpon>DetectPuzzlePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LoadingPhotosPage.xaml.cs">
       <DependentUpon>LoadingPhotosPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="TestPage.xaml.cs">
-      <DependentUpon>TestPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserManualPage.xaml.cs">
       <DependentUpon>UserManualPage.xaml</DependentUpon>
     </Compile>
     <Page Include="AdjustPhotosPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DetectPuzzlePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -134,10 +120,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="TestPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="UserManualPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -173,33 +155,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\UserManual\user_manual_1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="logo.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
-      <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 i x64%29</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1</ProductName>
-      <Install>false</Install>
-    </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\Logo\logo-small.png" />
+    <Resource Include="Images\Logo\logo.ico" />
     <Resource Include="Images\Logo\logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Logo\logo.ico" />
-  </ItemGroup>
-  <ItemGroup>
+    <Resource Include="Images\UserManual\user_manual_1.png" />
     <Resource Include="Images\UserManual\user_manual_2.png" />
     <Resource Include="Images\UserManual\user_manual_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="logo.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

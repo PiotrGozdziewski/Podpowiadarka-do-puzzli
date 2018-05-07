@@ -16,19 +16,17 @@ using System.Windows.Shapes;
 namespace Podpowiadarka_do_puzzli
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Logika interakcji dla klasy DetectPuzzlePage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class DetectPuzzlePage : Page
     {
-        public MainWindow()
+        public DetectPuzzlePage()
         {
             InitializeComponent();
-            Loaded += MyWindow_Loaded;
         }
 
-        private void MyWindow_Loaded(object sender, RoutedEventArgs e)
-        {
-            frame.NavigationService.Navigate(new UserManualPage());
-        }
+        private void prev_Click(object sender, RoutedEventArgs e) => this.NavigationService.Navigate(new AdjustPhotosPage());
+
+        private void exit_Click(object sender, RoutedEventArgs e) => Application.Current.Shutdown();
     }
 }
