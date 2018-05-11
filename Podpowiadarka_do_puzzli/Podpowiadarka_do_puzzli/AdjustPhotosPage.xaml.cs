@@ -170,7 +170,7 @@ namespace Podpowiadarka_do_puzzli
             this.NavigationService.Navigate(new DetectPuzzlePage());
         }
 
-
+        [DllImport("gdi32")]
         private static extern int DeleteObject(IntPtr o);
 
         public static BitmapSource ToBitmapSource(IImage image)
