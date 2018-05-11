@@ -3,6 +3,7 @@ using Emgu.CV.Structure;
 using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,8 +29,10 @@ namespace Podpowiadarka_do_puzzli
             InitializeComponent();
         }
 
-        public static Image<Rgb, byte> imgInput;
-        public static Image<Rgb, byte> imgInputPuzzle;
+        public static Image<Bgr, byte> imgInput;
+        public static Image<Bgr, byte> imgInputPuzzle;
+        static internal System.Windows.Forms.ImageList ImL;
+        static public BitmapImage bmp;
 
         public void add_Image(object sender, RoutedEventArgs e)
         {
@@ -42,7 +45,12 @@ namespace Podpowiadarka_do_puzzli
             {
                 image.Source = new BitmapImage(new Uri(op.FileName));
                 var path = op.FileName;
-                imgInput = new Image<Rgb, byte>(path);
+                Bitmap bm = new Bitmap(path);
+                System.Drawing.Image img = bm;
+                ImL = new System.Windows.Forms.ImageList();
+                ImL.Images.Add(img);
+                bmp = new BitmapImage(new Uri(path));
+                imgInput = new Image<Bgr, byte>(path);
             }
         }
 
@@ -58,7 +66,7 @@ namespace Podpowiadarka_do_puzzli
             {
                 puzzle.Source = new BitmapImage(new Uri(op.FileName));
                 var path = op.FileName;
-                imgInputPuzzle = new Image<Rgb, byte>(path);
+                imgInputPuzzle = new Image<Bgr, byte>(path);
             }
         }
 

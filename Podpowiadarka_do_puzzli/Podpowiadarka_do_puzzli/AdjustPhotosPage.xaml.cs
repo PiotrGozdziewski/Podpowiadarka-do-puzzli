@@ -4,6 +4,7 @@ using Emgu.CV.Structure;
 using Emgu.CV.Util;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -13,6 +14,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
+using System.Windows.Forms;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
@@ -27,9 +29,13 @@ namespace Podpowiadarka_do_puzzli
     public partial class AdjustPhotosPage : Page
     {
 
-        public Image<Rgb, byte> imgIn = LoadingPhotosPage.imgInput;
-        public Image<Rgb, byte> imgInPuzzle = LoadingPhotosPage.imgInputPuzzle;
+        static public Image<Bgr, byte> imgIn = LoadingPhotosPage.imgInput;
+        public Image<Bgr, byte> imgInPuzzle = LoadingPhotosPage.imgInputPuzzle;
         List<System.Drawing.Point> points = new List<System.Drawing.Point>();
+        static internal System.Windows.Forms.ImageList ImageList = new ImageList();
+        static internal ObservableCollection<Bitmap> lista_zdjec = new ObservableCollection<Bitmap>();
+
+
 
         Emgu.CV.Util.VectorOfVectorOfPoint contours;
         Emgu.CV.Util.VectorOfVectorOfPoint con;
@@ -97,7 +103,7 @@ namespace Podpowiadarka_do_puzzli
             }
             catch(System.NullReferenceException)
             {
-                MessageBox.Show("Wczytaj zdjęcia", "Podpowiadarka do puzzli - Błąd", MessageBoxButton.OK, MessageBoxImage.Error);
+                System.Windows.MessageBox.Show("Wczytaj zdjęcia", "Podpowiadarka do puzzli - Błąd", MessageBoxButton.OK, MessageBoxImage.Error);
             }
            
         }
@@ -128,7 +134,15 @@ namespace Podpowiadarka_do_puzzli
             nazwa += numer_zdjecia.ToString();
             nazwa += ".png";
 
+            ImageList.Images.Add(bitmap);
+
+            lista_zdjec.Add(bitmap);
+          //  System.Windows.MessageBox.Show(lista_zdjec.Count.ToString());
+
+
+            //////
             bitmap.Save(nazwa, System.Drawing.Imaging.ImageFormat.Png);
+           
         }
 
         void wyodrebnienie_puzzli(VectorOfVectorOfPoint con, List<System.Drawing.Point> p, Bitmap bmp)
@@ -145,16 +159,14 @@ namespace Podpowiadarka_do_puzzli
                 var max_y = array.Max(a => a.Y);
 
                 Crop2(bmp, min_x, min_y, max_x - min_x, max_y - min_y, "zdjecie", i + 1);
+               // ImageList = new ImageList();
+               // ImageList.Images.Add(bmp);
             }
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            wyodrebnienie_puzzli(con, points, imgInPuzzle.ToBitmap());
         }
 
         private void next_Click(object sender, RoutedEventArgs e)
         {
+            wyodrebnienie_puzzli(con, points, imgInPuzzle.ToBitmap());
             this.NavigationService.Navigate(new DetectPuzzlePage());
         }
 

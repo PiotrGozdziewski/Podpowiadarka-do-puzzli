@@ -32,7 +32,7 @@
             </Grid.RowDefinitions>
 
             <Grid Grid.Row="0">
-                <TextBlock FontSize="20" >Zdjęcie obrazka:</TextBlock>
+                <TextBlock FontSize="20" ><Run Text="Zdjęcie obrazka:"/></TextBlock>
             </Grid>
             <Grid Grid.Row="1">
                 <Image Name="image" Source="Images/Logo/logo.png"/>
@@ -53,42 +53,24 @@
 
             <Grid Grid.Row="1">
                 <Grid>
-                    <ListView ScrollViewer.HorizontalScrollBarVisibility="Hidden">
-                        <ListViewItem>
-                            <Grid Width="140" Height="100">
-                                <Image Source="Images/Logo/logo.png"/>
-                            </Grid>
-                        </ListViewItem>
-                        <ListViewItem>
-                            <Grid Width="140" Height="100">
-                                <Image Source="Images/Logo/logo.png"/>
-                            </Grid>
-                        </ListViewItem>
-                        <ListViewItem>
-                            <Grid Width="140" Height="100">
-                                <Image Source="Images/Logo/logo.png"/>
-                            </Grid>
-                        </ListViewItem>
-                        <ListViewItem>
-                            <Grid Width="140" Height="100">
-                                <Image Source="Images/Logo/logo.png"/>
-                            </Grid>
-                        </ListViewItem>
-                        <ListViewItem>
-                            <Grid Width="140" Height="100">
-                                <Image Source="Images/Logo/logo.png"/>
-                            </Grid>
-                        </ListViewItem>
-                        <ListViewItem>
-                            <Grid Width="140" Height="100">
-                                <Image Source="Images/Logo/logo.png"/>
-                            </Grid>
-                        </ListViewItem>
-                        <ListViewItem>
-                            <Grid Width="140" Height="100">
-                                <Image Source="Images/Logo/logo.png"/>
-                            </Grid>
-                        </ListViewItem>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="13*"/>
+                        <RowDefinition Height="32*"/>
+                    </Grid.RowDefinitions>
+                    <ListView x:Name="listViewPuzzle" VerticalAlignment="Top" Height="450" Margin="0,0,-0.4,0" Grid.RowSpan="2" MouseLeftButtonUp="getSelectedItem">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <UniformGrid Columns="1" />
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Vertical" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                                    <Image Source="{Binding ImageData}" HorizontalAlignment="Stretch" VerticalAlignment="Top" Stretch="UniformToFill" />
+                                    <TextBlock Text="{Binding Title}" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
                     </ListView>
                 </Grid>
             </Grid>
