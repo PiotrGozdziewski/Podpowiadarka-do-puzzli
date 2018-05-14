@@ -9,6 +9,7 @@ using System.Drawing;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -28,18 +29,14 @@ namespace Podpowiadarka_do_puzzli
     /// </summary>
     public partial class AdjustPhotosPage : Page
     {
-
         static public Image<Bgr, byte> imgIn = LoadingPhotosPage.imgInput;
         public Image<Bgr, byte> imgInPuzzle = LoadingPhotosPage.imgInputPuzzle;
         List<System.Drawing.Point> points = new List<System.Drawing.Point>();
         static internal System.Windows.Forms.ImageList ImageList = new ImageList();
         static internal ObservableCollection<Bitmap> lista_zdjec = new ObservableCollection<Bitmap>();
 
-
-
         Emgu.CV.Util.VectorOfVectorOfPoint contours;
         Emgu.CV.Util.VectorOfVectorOfPoint con;
-
 
 
         public AdjustPhotosPage()
@@ -54,16 +51,14 @@ namespace Podpowiadarka_do_puzzli
             catch(System.NullReferenceException){ }
         }
 
-
         private void prev_Click(object sender, RoutedEventArgs e)
         {
             this.NavigationService.Navigate(new LoadingPhotosPage());
-
         }
-
 
         public void wykrywanie_konturow(int t1, int t2)
         {
+            Thread.Sleep(50);
             try
             {
                 Image<Gray, byte> img = imgInPuzzle.Convert<Gray, byte>();
@@ -74,11 +69,7 @@ namespace Podpowiadarka_do_puzzli
 
                 graymat = img1.Mat;
 
-
                 CvInvoke.AdaptiveThreshold(graymat, mask, 255, AdaptiveThresholdType.MeanC, ThresholdType.BinaryInv, t1 * 10 - 1, t2);
-
-                //pictureBox1.Image = mask.Bitmap;
-
 
                 contours = new Emgu.CV.Util.VectorOfVectorOfPoint();
                 con = new Emgu.CV.Util.VectorOfVectorOfPoint();
@@ -86,7 +77,6 @@ namespace Podpowiadarka_do_puzzli
                 Mat hier = new Mat(mask.Rows, mask.Cols, DepthType.Cv8U, 0);
 
                 CvInvoke.FindContours(mask, contours, hier, Emgu.CV.CvEnum.RetrType.External, Emgu.CV.CvEnum.ChainApproxMethod.ChainApproxSimple);
-
 
                 for (int i = 0; i < contours.Size; i++)
                 {
@@ -104,8 +94,7 @@ namespace Podpowiadarka_do_puzzli
             catch(System.NullReferenceException)
             {
                 System.Windows.MessageBox.Show("Wczytaj zdjęcia", "Podpowiadarka do puzzli - Błąd", MessageBoxButton.OK, MessageBoxImage.Error);
-            }
-           
+            }          
         }
 
         private void t1_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
@@ -115,7 +104,6 @@ namespace Podpowiadarka_do_puzzli
             int b = Convert.ToInt32(t2.Value);
 
             wykrywanie_konturow(a, b);
-
         }
 
         private void t2_ValueChanged_1(object sender, RoutedPropertyChangedEventArgs<double> e)
@@ -136,18 +124,11 @@ namespace Podpowiadarka_do_puzzli
 
             ImageList.Images.Add(bitmap);
 
-            lista_zdjec.Add(bitmap);
-          //  System.Windows.MessageBox.Show(lista_zdjec.Count.ToString());
-
-
-            //////
-           // bitmap.Save(nazwa, System.Drawing.Imaging.ImageFormat.Png);
-           
+            lista_zdjec.Add(bitmap); 
         }
 
         void wyodrebnienie_puzzli(VectorOfVectorOfPoint con, List<System.Drawing.Point> p, Bitmap bmp)
         {
-            //MessageBox.Show(con.Size.ToString());
             for (int i = 0; i < con.Size; i++)
             {
                 var array = con[i].ToArray();
@@ -159,8 +140,6 @@ namespace Podpowiadarka_do_puzzli
                 var max_y = array.Max(a => a.Y);
 
                 Crop2(bmp, min_x, min_y, max_x - min_x, max_y - min_y, "zdjecie", i + 1);
-               // ImageList = new ImageList();
-               // ImageList.Images.Add(bmp);
             }
         }
 
@@ -175,7 +154,6 @@ namespace Podpowiadarka_do_puzzli
 
         public static BitmapSource ToBitmapSource(IImage image)
         {
-
             using (System.Drawing.Bitmap source = image.Bitmap)
             {
                 IntPtr ptr = source.GetHbitmap();

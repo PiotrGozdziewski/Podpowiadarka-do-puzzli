@@ -50,7 +50,19 @@ namespace Podpowiadarka_do_puzzli
                 ImL = new System.Windows.Forms.ImageList();
                 ImL.Images.Add(img);
                 bmp = new BitmapImage(new Uri(path));
-                imgInput = new Image<Bgr, byte>(path);
+                Image<Bgr, byte> imgInput1 = new Image<Bgr, byte>(path);
+                if (imgInput1.Width > 1024 && imgInput1.Width < 2050)
+                {
+                    imgInput = imgInput1.Resize(imgInput1.Width/2, imgInput1.Height/2, Emgu.CV.CvEnum.Inter.Linear);
+                }
+                else if(imgInput1.Width>2050)
+                {
+                    imgInput = imgInput1.Resize(imgInput1.Width / 3, imgInput1.Height / 3, Emgu.CV.CvEnum.Inter.Linear);
+                }
+                else
+                {
+                    imgInput = imgInput1;
+                }                  
             }
         }
 
@@ -66,7 +78,20 @@ namespace Podpowiadarka_do_puzzli
             {
                 puzzle.Source = new BitmapImage(new Uri(op.FileName));
                 var path = op.FileName;
-                imgInputPuzzle = new Image<Bgr, byte>(path);
+                Image<Bgr, byte> imgInputPuzzle1 = new Image<Bgr, byte>(path);
+                if(imgInputPuzzle1.Width>1024&& imgInputPuzzle1.Width<2050)
+                {
+                    imgInputPuzzle = imgInputPuzzle1.Resize(imgInputPuzzle1.Width / 2, imgInputPuzzle1.Height / 2, Emgu.CV.CvEnum.Inter.Linear);
+                }
+                else if(imgInputPuzzle1.Width>2050)
+                {
+                    imgInputPuzzle = imgInputPuzzle1.Resize(imgInputPuzzle1.Width / 3, imgInputPuzzle1.Height / 3, Emgu.CV.CvEnum.Inter.Linear);
+                }
+                else
+                {
+                    imgInputPuzzle = imgInputPuzzle1;
+                }
+                
             }
         }
 

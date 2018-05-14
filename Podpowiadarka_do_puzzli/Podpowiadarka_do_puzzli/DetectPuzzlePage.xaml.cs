@@ -38,13 +38,11 @@ namespace Podpowiadarka_do_puzzli
             InitializeComponent();
             System.Windows.Forms.ImageList ImageList = AdjustPhotosPage.ImageList;
             
-
             int x=0;
-
             for (int i = 0; i < lista_zdjec.Count; i++)
             {
                 x = i + 1;
-                listViewPuzzle.Items.Add(new MovieData { Title = "puzzel " + x, ImageData = BitmapToImageSource(lista_zdjec[i]) });
+                listViewPuzzle.Items.Add(new Images { Title = "puzzel " + x, ImageData = BitmapToImageSource(lista_zdjec[i]) });
             }
         }
 
@@ -63,23 +61,18 @@ namespace Podpowiadarka_do_puzzli
 
         private void getSelectedItem(object sender, MouseButtonEventArgs e)
         {
-            MovieData md = (MovieData)listViewPuzzle.SelectedItems[0];
+            Images md = (Images)listViewPuzzle.SelectedItems[0];
             BitmapImage mI = md.ImageData;
             Bitmap b = BitmapImage2Bitmap(mI);
             Image<Bgr, byte> img = new Image<Bgr, byte>(b);
             Mat mat = img.Mat;
- 
-            
-
         
             long matchTime;
             using (Mat modelImage = mat)
             using (Mat observedImage = imgIn.Mat)
             {
-                Mat result = Test.Draw(modelImage, observedImage, out matchTime);
-                // ImageViewer.Show(result, String.Format("Matched in {0} milliseconds", matchTime));
+                Mat result = Detect.Draw(modelImage, observedImage, out matchTime);
                 image.Source = BitmapToImageSource(result.Bitmap);
-
             }
         }
 
@@ -116,7 +109,7 @@ namespace Podpowiadarka_do_puzzli
     }
 
  
-    public class MovieData
+    public class Images
     {
         private string _Title;
         public string Title
@@ -131,10 +124,9 @@ namespace Podpowiadarka_do_puzzli
             get { return this._ImageData; }
             set { this._ImageData = value; }
         }
-
     }
 
-    public static class Test
+    public static class Detect
     {
         public static void FindMatch(Mat modelImage, Mat observedImage, out long matchTime, out VectorOfKeyPoint modelKeyPoints, out VectorOfKeyPoint observedKeyPoints, VectorOfVectorOfDMatch matches, out Mat mask, out Mat homography)
         {
@@ -155,7 +147,6 @@ namespace Podpowiadarka_do_puzzli
                 //extract features from the object image
                 UMat modelDescriptors = new UMat();
                 surfCPU.DetectAndCompute(uModelImage, null, modelKeyPoints, modelDescriptors, false);
-
 
                 watch = Stopwatch.StartNew();
 
@@ -178,20 +169,11 @@ namespace Podpowiadarka_do_puzzli
                         homography = Features2DToolbox.GetHomographyMatrixFromMatchedFeatures(modelKeyPoints,
                            observedKeyPoints, matches, mask, 2);
                 }
-
                 watch.Stop();
             }
-
             matchTime = watch.ElapsedMilliseconds;
         }
 
-        /// <summary>
-        /// Draw the model image and observed image, the matched features and homography projection.
-        /// </summary>
-        /// <param name="modelImage">The model image</param>
-        /// <param name="observedImage">The observed image</param>
-        /// <param name="matchTime">The output total time for computing the homography matrix.</param>
-        /// <returns>The model image and observed image, the matched features and homography projection.</returns>
         public static Mat Draw(Mat modelImage, Mat observedImage, out long matchTime)
         {
             Mat homography;
@@ -206,9 +188,7 @@ namespace Podpowiadarka_do_puzzli
                 //Draw the matched keypoints
                 Mat result = new Mat();
                 Features2DToolbox.DrawMatches(modelImage, modelKeyPoints, observedImage, observedKeyPoints,
-                   matches, result, new MCvScalar(255, 255, 255), new MCvScalar(255, 255, 255), mask);
-
-                #region draw the projected region on the image
+                   matches, result, new MCvScalar(255,255,255,0), new MCvScalar(255, 255, 255,0), mask, Features2DToolbox.KeypointDrawType.NotDrawSinglePoints);
 
                 if (homography != null)
                 {
@@ -226,15 +206,10 @@ namespace Podpowiadarka_do_puzzli
                     System.Drawing.Point[] points = Array.ConvertAll<PointF, System.Drawing.Point>(pts, System.Drawing.Point.Round);
                     using (VectorOfPoint vp = new VectorOfPoint(points))
                     {
-                        CvInvoke.Polylines(result, vp, true, new MCvScalar(255, 0, 0, 255), 2);
+                        CvInvoke.Polylines(result, vp, true, new MCvScalar(255, 0, 0, 255), 4);
                     }
-
                 }
-
-                #endregion
-
                 return result;
-
             }
         }
     }
