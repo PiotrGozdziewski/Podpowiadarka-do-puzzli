@@ -97,7 +97,20 @@ namespace Podpowiadarka_do_puzzli
 
         private void next_Click(object sender, RoutedEventArgs e)
         {
-            this.NavigationService.Navigate(new AdjustPhotosPage());
+            if (imgInput != null && imgInputPuzzle != null)
+            {
+                this.NavigationService.Navigate(new AdjustPhotosPage());
+            }
+            else
+            {
+                string error_message = "";
+
+                if (imgInput == null && imgInputPuzzle == null) error_message = "zdjęcie obrazka oraz zdjęcie puzzli";
+                else if (imgInput == null) error_message = "zdjęcie obrazka";
+                else if (imgInputPuzzle == null) error_message = "zdjęcie puzzli";
+
+                MessageBox.Show("Dodaj "+error_message+".", "Błąd");
+            }
         }
 
         private void prev_Click(object sender, RoutedEventArgs e)

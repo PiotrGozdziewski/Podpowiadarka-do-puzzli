@@ -30,7 +30,7 @@ namespace Podpowiadarka_do_puzzli
     /// </summary>
     public partial class DetectPuzzlePage : Page
     {
-        Image<Bgr, byte> imgIn = AdjustPhotosPage.imgIn;
+        Image<Bgr, byte> imgIn = LoadingPhotosPage.imgInput;
         ObservableCollection<Bitmap> lista_zdjec = AdjustPhotosPage.lista_zdjec;
 
         public DetectPuzzlePage()
