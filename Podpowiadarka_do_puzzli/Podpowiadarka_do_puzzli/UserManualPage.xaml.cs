@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,11 +24,26 @@ namespace Podpowiadarka_do_puzzli
         public UserManualPage()
         {
             InitializeComponent();
+
+            if (File.Exists(MainWindow.PATH)) checkBoxSkip.IsChecked = true;
+            else checkBoxSkip.IsChecked = false;
+
         }
 
         private void next_Click(object sender, RoutedEventArgs e)
         {
-            this.NavigationService.Navigate(new LoadingPhotosPage());
+            NavigationService.Navigate(new LoadingPhotosPage());
+        }
+
+        private void skipChange(object sender, RoutedEventArgs e)
+        {
+            if (checkBoxSkip.IsChecked == false) File.Delete(MainWindow.PATH);
+            else File.Create(MainWindow.PATH);
+        }
+
+        private void skip(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

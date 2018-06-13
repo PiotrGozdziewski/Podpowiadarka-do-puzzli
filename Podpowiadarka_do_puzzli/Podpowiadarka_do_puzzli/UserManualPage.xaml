@@ -50,7 +50,7 @@
         </ScrollViewer>
 
         <Grid Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Margin="30,20,0,0">
-            <CheckBox Content="Nie pokazuj więcej tego okna" FontSize="13" />
+            <CheckBox Name="checkBoxSkip" Content="Nie pokazuj więcej tego okna" FontSize="13" Click="skipChange" />
         </Grid>
 
         <Grid Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="1">

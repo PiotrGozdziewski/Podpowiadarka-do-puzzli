@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,15 +21,21 @@ namespace Podpowiadarka_do_puzzli
     /// </summary>
     public partial class MainWindow : Window
     {
+        public const string PATH = "skip";
+
         public MainWindow()
         {
             InitializeComponent();
+
             Loaded += MyWindow_Loaded;
         }
 
         private void MyWindow_Loaded(object sender, RoutedEventArgs e)
         {
-            frame.NavigationService.Navigate(new UserManualPage());
+            if (File.Exists(MainWindow.PATH))
+                frame.NavigationService.Navigate(new LoadingPhotosPage());
+            else
+                frame.NavigationService.Navigate(new UserManualPage());
         }
     }
 }
