@@ -27,8 +27,20 @@ namespace Podpowiadarka_do_puzzli
         public LoadingPhotosPage()
         {
             InitializeComponent();
+
+            if (imgInputPuzzle != null)
+            {
+                image.Source = bitmapImg;
+            }
+
+            if(imgInputPuzzle != null)
+            {
+                puzzle.Source = bitmapPuz;
+            }
         }
 
+        public static BitmapImage bitmapImg; 
+        public static BitmapImage bitmapPuz; 
         public static Image<Bgr, byte> imgInput;
         public static Image<Bgr, byte> imgInputPuzzle;
         static internal System.Windows.Forms.ImageList ImL;
@@ -43,7 +55,8 @@ namespace Podpowiadarka_do_puzzli
               "Portable Network Graphic (*.png)|*.png";
             if (op.ShowDialog() == true)
             {
-                image.Source = new BitmapImage(new Uri(op.FileName));
+                bitmapImg = new BitmapImage(new Uri(op.FileName));
+                image.Source = bitmapImg;
                 var path = op.FileName;
                 Bitmap bm = new Bitmap(path);
                 System.Drawing.Image img = bm;
@@ -76,7 +89,8 @@ namespace Podpowiadarka_do_puzzli
               "Portable Network Graphic (*.png)|*.png";
             if (op.ShowDialog() == true)
             {
-                puzzle.Source = new BitmapImage(new Uri(op.FileName));
+                bitmapPuz = new BitmapImage(new Uri(op.FileName));
+                puzzle.Source = bitmapPuz;
                 var path = op.FileName;
                 Image<Bgr, byte> imgInputPuzzle1 = new Image<Bgr, byte>(path);
                 if(imgInputPuzzle1.Width>1024&& imgInputPuzzle1.Width<2050)
@@ -91,7 +105,6 @@ namespace Podpowiadarka_do_puzzli
                 {
                     imgInputPuzzle = imgInputPuzzle1;
                 }
-                
             }
         }
 
